@@ -1,0 +1,17 @@
+.Search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Search label {
+  margin-right: 1rem;
+}
+
+.Search-input {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 50%;
+  margin: 1rem 0;
+}

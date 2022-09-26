@@ -1,0 +1,17 @@
+.Company {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  align-items: center;
+  height: 2rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+.Company-logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}

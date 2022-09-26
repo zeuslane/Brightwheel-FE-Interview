@@ -1,0 +1,48 @@
+.App-loading-indicator-container {
+  height: 10rem;
+  position: relative;
+}
+
+.App-loading-indicator, .App-no-results {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -ms-transform: translateX(50%) translateY(-50%);
+  transform: translateX(50%) translateY(-50%);
+}
+
+.App-header-container {
+  padding: 2rem;
+}
+
+.App-search-container {
+  padding: 0 2rem;
+  font-weight: bold;
+}
+
+.App-num-starred-companies {
+  margin-left: 4rem;
+}
+
+.App-error {
+  padding: 1rem 4rem;
+}
+
+.App-companies-container, .App-pagination-container {
+  padding: 0 4rem 2rem 4rem;
+}
+
+.App-pagination-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-pagination {
+  margin-bottom: 1.5rem;
+}
+
+.App-pagination-select {
+  width: 25%;
+}
